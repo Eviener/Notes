@@ -1,6 +1,6 @@
 # SQL 基础语法
 
-## <kbd>SELECT</kbd> - 查询数据
+## `SELECT` - 查询数据
 SELECT 语句用于从表中选取数据。
 ```SQL
 select * from table_name;
