@@ -1,6 +1,12 @@
 # SQL 语法
 
 ## SELECT - 查询数据
+SELECT 语句用于从表中选取数据。
+```sql
+select * from table_name;
+select LastName,FirstName from Persons
+```
+
 ## UPDATE - 更新数据
 ## DELETE - 删除数据
 ## INSERT INTO - 插入新数据
