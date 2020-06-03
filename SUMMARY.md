@@ -44,9 +44,10 @@
 ## 数据库 <a id="database"></a>
 
 * [一、SQL](database/chapter1/README.md)
-  * [SQL 语法](database/chapter1/seciont1.md)
-  * [SQL 高级语法](database/chapter1/section2.md)
-  * [SQL 常见查询问题](database/chapter1/section3.md)
+  * [SQL 查询语法](database/chapter1/seciont1.md)
+  * [SQL 基础语法](database/chapter1/seciont2.md)
+  * [SQL 高级语法](database/chapter1/section3.md)
+  * [SQL 常见查询问题](database/chapter1/section4.md)
 
 ## 其他 <a id="other"></a>
 
