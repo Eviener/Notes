@@ -51,7 +51,7 @@
 ## 其他
 
 * [一、CLI命令行](qi-ta/chapter1/README.md)
-  * [1.1、npm常用命令行](qi-ta/chapter1/seciont1.md)
+  * [1.1、npm命令行](qi-ta/chapter1/seciont1.md)
   * [1.2、angular命令行](qi-ta/chapter1/section2.md)
   * [1.3、git命令行](qi-ta/chapter1/section3.md)
 
