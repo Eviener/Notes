@@ -1,6 +1,6 @@
 # SQL 基础语法
 
-## `SELECT` - 查询数据
+## SELECT - 查询数据
 SELECT 语句用于从表中选取数据。
 ```SQL
 select * from table_name;
@@ -11,6 +11,15 @@ select LastName,FirstName from Persons
 ```SQL
 select distinct FirstName from Persons
 ```
+## WHERE - 条件
+有条件地从表中选取数据
+```SQL
+select * from Persons where City='Beijing'
+select * from Persons where Year>1965
+```
+请注意，文本值用单引号''，数值不用引号
+
+下面的运算符可在 WHERE 子句中使用：
 ## UPDATE - 更新数据
 ## DELETE - 删除数据
 ## INSERT INTO - 插入新数据
