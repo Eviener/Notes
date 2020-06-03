@@ -1,12 +1,16 @@
-# SQL 语法
+# SQL 基础语法
 
-## SELECT - 查询数据
+## <kbd>SELECT</kbd> - 查询数据
 SELECT 语句用于从表中选取数据。
-```sql
+```SQL
 select * from table_name;
 select LastName,FirstName from Persons
 ```
-
+## DISTINCT - 去重数据
+关键词 DISTINCT 用于返回数据中唯一不同的值。
+```SQL
+select distinct FirstName from Persons
+```
 ## UPDATE - 更新数据
 ## DELETE - 删除数据
 ## INSERT INTO - 插入新数据
