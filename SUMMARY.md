@@ -41,17 +41,17 @@
   * [第一节](asp.net/chapter2/seciont1.md)
   * [第二节](asp.net/chapter2/section2.md)
 
-## 数据库
+## 数据库 <a id="database"></a>
 
-* [一、SQL](shu-ju-ku/chapter1/README.md)
-  * [第一节](shu-ju-ku/chapter1/seciont1.md)
-  * [第二节](shu-ju-ku/chapter1/section2.md)
-  * [第三节](shu-ju-ku/chapter1/section3.md)
+* [一、SQL](database/chapter1/README.md)
+  * [SQL 语法](database/chapter1/seciont1.md)
+  * [SQL 高级语法](database/chapter1/section2.md)
+  * [SQL 常见查询问题](database/chapter1/section3.md)
 
-## 其他
+## 其他 <a id="other"></a>
 
-* [一、CLI命令行](qi-ta/chapter1/README.md)
-  * [1.1、npm命令行](qi-ta/chapter1/seciont1.md)
-  * [1.2、angular命令行](qi-ta/chapter1/section2.md)
-  * [1.3、git命令行](qi-ta/chapter1/section3.md)
+* [一、CLI命令行](other/chapter1/README.md)
+  * [npm 命令行](other/chapter1/seciont1.md)
+  * [angular 命令行](other/chapter1/section2.md)
+  * [git 命令行](other/chapter1/section3.md)
 
