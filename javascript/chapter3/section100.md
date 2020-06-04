@@ -4,7 +4,7 @@ description: 开发中经常会遇到的问题及解决方案
 
 # Angular 常见问题
 
-## 1、angular中在HTML中修改class
+## 1、angular中在html中修改class
 
 * **html**
 
