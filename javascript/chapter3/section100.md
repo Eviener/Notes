@@ -42,6 +42,21 @@ onStepChange(currentStep: number): void {
   }
 ```
 
-HTML中的`[class.shadow-checked]="shadowcheckedClass"`，是否使用`class`中的`shadow-checked`样式，取决于后台`shadowcheckedClass`的值（`true`或者`false`）  
+HTML中的`[class.shadow-checked]="shadowcheckedClass"`，是否使用`class`中的`shadow-checked`样式，取决于后台`shadowcheckedClass`的值（`true`或者`false`）
+
+## 2、
+
+
+
+## 3、
+
+
+
+## 4、
+
+
+
+## 5、
+
 
 
