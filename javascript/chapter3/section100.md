@@ -44,7 +44,35 @@ onStepChange(currentStep: number): void {
 
 HTML中的`[class.shadow-checked]="shadowcheckedClass"`，是否使用`class`中的`shadow-checked`样式，取决于后台`shadowcheckedClass`的值（`true`或者`false`）
 
-## 2、
+## 2、禁用鼠标点击事件
+
+### 2.1 禁用父元素鼠标点击事件
+
+* **html**
+
+```markup
+<div (click)="onDeductibleChange(2,$event)" *ngIf="deductibleMagnify" ></div>
+```
+
+* **ts文件**
+
+```typescript
+onDeductibleChange(state: number,e: any): void {
+    e.stopPropagation(); //阻止任何父事件处理程序被执行
+    switch(state){
+      case 1:
+        this.deductibleMagnify = true;
+        break;
+
+      case 2:
+        this.deductibleMagnify = false;
+        break;
+
+      default:
+        break;
+    }
+  }
+```
 
 
 
