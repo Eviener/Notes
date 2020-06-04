@@ -78,15 +78,9 @@ onDeductibleChange(state: number,e: any): void {
 
 ### 2.2 利用遮罩层
 
-## 3、
 
 
 
-## 4、
-
-
-
-## 5、
 
 
 
