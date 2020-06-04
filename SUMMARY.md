@@ -25,6 +25,7 @@
 * [三、Angular2](javascript/chapter3/README.md)
   * [第一节](javascript/chapter3/seciont1.md)
   * [第二节](javascript/chapter3/section2.md)
+  * [Angular 常见问题](javascript/chapter3/section100.md)
 * [四、React](javascript/chapter4/README.md)
   * [第一节](javascript/chapter4/seciont1.md)
   * [第二节](javascript/chapter4/section2.md)
