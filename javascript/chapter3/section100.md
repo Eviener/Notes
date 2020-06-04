@@ -48,6 +48,8 @@ HTML中的`[class.shadow-checked]="shadowcheckedClass"`，是否使用`class`中
 
 ### 2.1 禁用父元素鼠标点击事件
 
+`event.stopPropagation()`
+
 * **html**
 
 ```markup
@@ -74,7 +76,7 @@ onDeductibleChange(state: number,e: any): void {
   }
 ```
 
-
+### 2.2 利用遮罩层
 
 ## 3、
 
