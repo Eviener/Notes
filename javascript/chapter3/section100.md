@@ -78,6 +78,10 @@ onDeductibleChange(state: number,e: any): void {
 
 ### 2.2 利用遮罩层
 
+## 3、`*ngIf`
+
+动态加载控件，性能不好，尽量少用
+
 
 
 
