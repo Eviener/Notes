@@ -43,6 +43,7 @@
 * [二、.NET Core](asp.net/chapter2/README.md)
   * [第一节](asp.net/chapter2/seciont1.md)
   * [第二节](asp.net/chapter2/section2.md)
+  * [.NET Core 常见问题](asp.net/chapter2/section100.md)
 
 ## 数据库 <a id="database"></a>
 
