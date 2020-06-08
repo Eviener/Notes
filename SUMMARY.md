@@ -34,6 +34,9 @@
 * [五、Vue](javascript/chapter5/README.md)
   * [第一节](javascript/chapter5/seciont1.md)
   * [第二节](javascript/chapter5/section2.md)
+* [六、TypeScript](javascript/chapter6/README.md)
+  * [TypeScript 基础语法](javascript/chapter6/seciont1.md)
+  * [TypeScript 基础类型](javascript/chapter6/seciont2.md)
 
 ## ASP.NET
 
