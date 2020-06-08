@@ -4,7 +4,7 @@ description: TypeScript 包含的数据类型如下
 
 # TypeScript 基本类型
 
-##   string 字符串
+## string 字符串
 
 文本数据，使用单引号（`'`）或双引号（`"`）来表示字符串类型。
 
