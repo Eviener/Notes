@@ -10,7 +10,7 @@ TypeScript 设计目标是开发大型应用，它可以编译成纯 JavaScript�
 
 ## 语言特性
 
-TypeScript 是一种给 JavaScript 添加特性的语言扩展。增加的功能包括：
+TypeScript 是一种给 JavaScript 添加特性的语言扩展。增加的功能：
 
 * 类型批注和编译时类型检查
 * 类型推断
