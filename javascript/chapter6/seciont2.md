@@ -168,5 +168,21 @@ let arrayList: any[] = [1, false, 'fine'];
 arrayList[1] = 100;
 ```
 
+## void
+
+用于标识方法返回值的类型，表示该方法没有返回值。
+
+```typescript
+function warnUser(): void {
+    console.log("This is my warning message");
+}
+```
+
+### Null 和 Undefined
+
+`null`表示对象值缺失。
+
+`undefined`用于初始化变量为一个未定义的值。
+
 
 
