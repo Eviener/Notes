@@ -55,6 +55,9 @@
   * [SQL 基础语法](database/chapter1/seciont2.md)
   * [SQL 高级语法](database/chapter1/section3.md)
   * [SQL 常见查询问题](database/chapter1/section4.md)
+* [二、SQLite](database/chapter2/README.md)
+  * [第一节](database/chapter2/seciont1.md)
+  * [第二节](database/chapter2/seciont2.md)
 
 ## 其他 <a id="other"></a>
 
