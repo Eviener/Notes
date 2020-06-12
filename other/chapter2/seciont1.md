@@ -77,3 +77,5 @@ sc.exe query $Name;
 sc.exe delete $Name;
 ```
 
+更多Windows**服务进程**相关知识可[查看官方文档](https://docs.microsoft.com/zh-cn/powershell/scripting/samples/managing-services?view=powershell-7)。
+
