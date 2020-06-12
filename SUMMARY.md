@@ -65,6 +65,6 @@
   * [npm 命令行](other/chapter1/seciont1.md)
   * [angular 命令行](other/chapter1/section2.md)
   * [git 命令行](other/chapter1/section3.md)
-* [二、Powershell](other/chapter2/README.md)
-  * [常用命令](other/chapter2/seciont1.md)
+* [二、PowerShell](other/chapter2/README.md)
+  * [PowerShell 常用命令](other/chapter2/seciont1.md)
 

@@ -2,7 +2,7 @@
 description: 2020-06-12 新学笔记
 ---
 
-# 常用命令
+# PowerShell 常用命令
 
 ## Param 设置参数
 
@@ -76,6 +76,16 @@ sc.exe query $Name;
 //删除服务
 sc.exe delete $Name;
 ```
+
+## 创建PowerShell文件
+
+先创建文本，然后重命名后缀名为`.ps1`。
+
+
+
+
+
+
 
 更多Windows**服务进程**相关知识可[查看官方文档](https://docs.microsoft.com/zh-cn/powershell/scripting/samples/managing-services?view=powershell-7)。
 
