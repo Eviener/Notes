@@ -56,9 +56,20 @@ Param(
 [string]$Name=$(throw "系统服务名称不能为空"),
 [string]$Description=$(throw "请用简单一句描述一下你的服务"),
 )
+
 //生成Windows服务进程，并设置服务启动状态为自动启动
 sc.exe create $Name binPath=$install start=auto;
+
 //设置服务描述
 sc.exe description $Name $Description;
+
+//开始启动Windows服务
+sc.exe start $Name;
+
+//查看服务运行情况
+sc.exe query $Name;
+
+//删除服务
+sc.exe delete $Name;
 ```
 
