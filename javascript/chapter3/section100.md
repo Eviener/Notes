@@ -82,7 +82,11 @@ onDeductibleChange(state: number,e: any): void {
 
 动态加载控件，性能不好，尽量少用
 
+## 4、HttpClient传输url中文乱码
 
+```typescript
+encodeURIComponent(this.xmlbody);
+```
 
 
 
