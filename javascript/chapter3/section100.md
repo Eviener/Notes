@@ -85,7 +85,7 @@ onDeductibleChange(state: number,e: any): void {
 ## 4、HttpClient传输url中文乱码
 
 ```typescript
-encodeURIComponent(this.xmlbody);
+encodeURIComponent(this.body);
 ```
 
 
