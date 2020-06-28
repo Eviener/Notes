@@ -22,7 +22,7 @@ var countrys = xmlDoc.getElementsByTagName('DataSource');
 var country = countrys[0].textContent;
 ```
 
-4、xml 
+### 4、xml 节点
 
 ```javascript
 var countrys = xmlDoc.documentElement.childNodes[0];
