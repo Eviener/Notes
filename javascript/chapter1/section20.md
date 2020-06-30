@@ -23,11 +23,11 @@ var countrys = xmlDoc.getElementsByTagName('DataSource');
 var country = countrys[0].textContent;
 ```
 
-### 4、xml 节点
+### 4、xml 获取节点的文本值、节点名称
 
 ```javascript
 var countrys = xmlDoc.documentElement.childNodes[0];
-var country = countrys.nodeValue; //不确定正确性
+var country = countrys.nodeValue; //节点文本值
 ```
 
 ### 5、xml获取节点数
