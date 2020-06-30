@@ -37,3 +37,7 @@ var countrys = xmlDoc.documentElement.childNodes;
 var len = countrys.length; //返回集合中的节点数
 ```
 
+
+
+更多`XML`相关知识可 [菜鸟教程](https://www.runoob.com/dom/dom-tutorial.html) 或 [w3school](https://www.w3school.com.cn/xmldom/index.asp)。
+
