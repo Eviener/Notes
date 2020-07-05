@@ -43,13 +43,19 @@ gitbook init
 gitbook serve--open
 ```
 
-### 6.更新 gitbook
+### 6.**打包**
+
+```text
+gitbook build
+```
+
+### 7.更新 gitbook
 
 ```text
 npm update gitbook-cli -g
 ```
 
-### 7.卸载 gitbook
+### 8.卸载 gitbook
 
 ```text
 npm uninstall gitbook-cli -g
