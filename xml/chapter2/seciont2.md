@@ -2,7 +2,7 @@
 description: XML 文档中的每个成分都是一个节点
 ---
 
-# XML DOM 节点
+# XML DOM 基础知识
 
 文本总是存储在文本节点中
 
