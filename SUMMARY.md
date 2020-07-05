@@ -70,7 +70,6 @@
   * [XML 验证](xml/chapter1/section5.md)
   * [XML 常见问题](xml/chapter1/section100.md)
 * [二、XML DOM](xml/chapter2/README.md)
-  * [XML DOM 简介](xml/chapter2/seciont1.md)
   * [XML DOM 节点](xml/chapter2/seciont2.md)
   * [XML DOM 解析](xml/chapter2/seciont3.md)
   * [XML DOM Node对象](xml/chapter2/seciont4.md)
