@@ -21,7 +21,7 @@ else
    // Internet Explorer 兼容IE
   var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
   xmlDoc.async = false;
-  xmlDoc.loadXML(text); 
+  xmlDoc.loadXML(xmlText); 
 }
 ```
 
