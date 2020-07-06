@@ -20,7 +20,6 @@
 * [一、JavaScript](javascript/chapter1/README.md)
   * [第一节](javascript/chapter1/seciont1.md)
   * [第二节](javascript/chapter1/section2.md)
-  * [解析XML](javascript/chapter1/section20.md)
 * [二、jQuery](javascript/chapter2/README.md)
   * [第一节](javascript/chapter2/seciont1.md)
   * [第二节](javascript/chapter2/section2.md)
@@ -74,7 +73,7 @@
   * [XML DOM 解析](xml/chapter2/seciont3.md)
   * [XML DOM Node对象](xml/chapter2/seciont4.md)
   * [XML DOM 遍历节点](xml/chapter2/seciont5.md)
-  * [XML DOM 经常用法](xml/chapter2/seciont99.md)
+  * [XML DOM 常用方法归纳](xml/chapter2/seciont99.md)
   * [XML DOM 常见问题](xml/chapter2/section100.md)
 
 ## 其他
