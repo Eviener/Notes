@@ -1,5 +1,5 @@
 ---
-description: 在访问和操作 XML 文档之前，它必须加载到 XML DOM 对象。
+description: 构建xml文档对象。在访问和操作 XML 文档之前，它必须加载到 XML DOM 对象。
 ---
 
 # XML DOM 解析
@@ -9,10 +9,12 @@ description: 在访问和操作 XML 文档之前，它必须加载到 XML DOM �
 ## 1、加载 XML 字符串
 
 ```javascript
+var xmlText = "xml字符串内容";
 if (window.DOMParser)
 {
-  let parser = new DOMParser();
-  let xmlDoc = parser.parseFromString(xmlText, "text/xml");
+  //创建xml文档对象
+  var parser = new DOMParser();
+  var xmlDoc = parser.parseFromString(xmlText, "text/xml");
 }
 else
 {

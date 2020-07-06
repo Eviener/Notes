@@ -3,10 +3,10 @@
 ### 1、构建`xml`文档对象
 
 ```javascript
-var str = "xml字符串内容";
+var xmlText = "xml字符串内容";
 //创建xml文档对象
 var parser = new DOMParser();
-var xmlDoc = parser.parseFromString(str,"text/xml");
+var xmlDoc = parser.parseFromString(xmlText,"text/xml");
 ```
 
 ### 2、xml查找节点
