@@ -8,7 +8,7 @@ description: XML DOM 定义了所有 XML 元素的对象和属性，以及访问
 
 HTML DOM 和 XML DOM 都是DOM的不同部分
 
-### 1.DOM  -用于任何结构化文档的标准模型
+### 1. DOM  -用于任何结构化文档的标准模型
 
 DOM 是 **W3C**（World Wide Web Consortium）**标准**。
 
@@ -18,7 +18,7 @@ DOM 是**W3C 文档对象模型**（全称 Document Object Model）。是一个�
 
  DOM 定义了所有文档元素的**对象和属性**，以及访问它们的**方法**（接口）。
 
-### 2.XML DOM  -用于 XML 文档的标准模型
+### 2. XML DOM  -用于 XML 文档的标准模型
 
 * 用于 XML 的标准对象模型
 * 用于 XML 的标准编程接口
@@ -29,7 +29,7 @@ DOM 是**W3C 文档对象模型**（全称 Document Object Model）。是一个�
 
  换句话说：**XML DOM 是用于获取、更改、添加或删除 XML 元素的标准。**XML DOM 包含了遍历 XML 树，访问、插入及删除节点的方法（函数）。
 
-### 3.HTML DOM  -用于 HTML 文档的标准模型
+### 3. HTML DOM  -用于 HTML 文档的标准模型
 
  HTML DOM 定义了所有 HTML 元素的**对象和属性**，以及访问它们的**方法**（接口）。
 

@@ -3,10 +3,10 @@
 ### 1、构建`xml`文档对象
 
 ```javascript
-var xmlText = "xml字符串内容";
+let xmlText = "xml字符串内容";
 //创建xml文档对象
-var parser = new DOMParser();
-var xmlDoc = parser.parseFromString(xmlText,"text/xml");
+let parser = new DOMParser();
+let xmlDoc = parser.parseFromString(xmlText, "text/xml");
 ```
 
 ### 2、xml查找节点
@@ -37,5 +37,9 @@ var countrys = xmlDoc.documentElement.childNodes;
 var len = countrys.length; //返回集合中的节点数
 ```
 
+### 6、xml Dom 转 json
 
+```javascript
+let obj = xmlToJson(xmlDoc);
+```
 
