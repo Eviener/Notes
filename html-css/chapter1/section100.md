@@ -2,11 +2,11 @@
 
 ### 1. 切换tab键，不聚焦a标签
 
-将a标签的tabindex属性设置为-1
+设置`tabindex`属性值为-1
 
 ```markup
 <a tabindex=-1>Submit</a>
 ```
 
-
+a标签、input标签，都适用。
 
