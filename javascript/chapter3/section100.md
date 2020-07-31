@@ -88,7 +88,31 @@ onDeductibleChange(state: number,e: any): void {
 encodeURIComponent(this.body);
 ```
 
+## 5、输入自动聚焦下一个input，删除自动聚焦上一个input
 
+```markup
+<input type="text"
+    #newPhone3
+    (keyup)='focusNextInput(3, newPhone1, newPhone2, newPhone3)'
+  />
+```
 
+```typescript
+focusNextInput(len: number, beforeControl?: HTMLInputElement, curControl?: HTMLInputElement, nextControl?: HTMLInputElement): void {
+    if (curControl.value.length < 1) {
+      beforeControl?.focus();
+    }
+    else if (curControl.value.length === len) {
+      nextControl?.focus();
+    }
+  }
+```
 
+## 6、keydown、 **keypress、**keyup
+
+* keydown：按键按下时触发 
+* keypress：按键按下时触发 \(针对系统按键是无效的\)
+* keyup：按键松开时触发 
+
+keydown和keypress略有不同，目前的测试是ngKeypress针对系统按键是无效的，而keydown和keyup可以。
 
