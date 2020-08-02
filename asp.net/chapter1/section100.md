@@ -11,7 +11,8 @@ num.ToString("D5")  //00025(十进制数)
 num.ToString("F2")  //25.00(固定点)
 
 num = 2500000;
-num.ToString("N")  //2,500,000.00(千分位格式的数字)
+num.ToString("N")   //2,500,000.00(千分位格式的数字，默认为两位小数)
+num.ToString("N1")  //2,500,000.0
 
 num = 255
 num.ToString("X")  //FF(十六进制)
