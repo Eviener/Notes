@@ -36,14 +36,15 @@ num.ToString("0,00")//12,345,678(数字分组,也用于增倍器)
 
 ```csharp
 DateTime dt = new DateTime(2006,11,25);
-dt.ToString("yyyy年MM月dd日")  //2003年05月25日
-dt.ToString("yyyy/MM/dd HH:mm:ss")  //2003/05/25 10:30:00
+dt.ToString()    //2006-11-25 10:30:25
+dt.ToString("yyyy年MM月dd日")  //2006年11月25日
+dt.ToString("yyyy/MM/dd HH:mm:ss")  //2006/11/25 10:30:25
 dt.ToString("D")  //2006年11月25日
 dt.ToString("d")  //2006-11-25
-dt.ToString("F")  //2006年11月25日 10:30:00
+dt.ToString("F")  //2006年11月25日 10:30:25
 dt.ToString("f")  //2006年11月25日 10:30
-dt.ToString("s")  //2006-11-26 10:30:00
-dt.ToString("T")  //10:30:00
+dt.ToString("s")  //2006-11-25 10:30:25
+dt.ToString("T")  //10:30:25
 ```
 
 以下只能单独使用，表示特定的格式：
