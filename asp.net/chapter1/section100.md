@@ -114,7 +114,7 @@ string.Format("{0:F1}",num)  //56789.0
 string.Format("{0:F2}",num)  //56789.00
 
 //Date日期
-DateTime dt = new DateTime(2006,11,25);
+DateTime dt = DateTime.Now;
 string.Format("{0:D}",dt)  //2006年11月25日
 string.Format("{0:d}",dt)  //2006-11-25
 string.Format("{0:F}",dt)  //2006年11月25日 10:30:00
