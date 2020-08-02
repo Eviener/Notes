@@ -21,6 +21,7 @@
 * [一、JavaScript](javascript/chapter1/README.md)
   * [第一节](javascript/chapter1/seciont1.md)
   * [第二节](javascript/chapter1/section2.md)
+  * [JavaScript 常见问题](javascript/chapter1/section100.md)
 * [二、jQuery](javascript/chapter2/README.md)
   * [第一节](javascript/chapter2/seciont1.md)
   * [第二节](javascript/chapter2/section2.md)
