@@ -9,6 +9,7 @@
 int num = 25;
 
 num.ToString("C")   //￥25.00(常用的货币格式)
+num.ToString("c2")  //$25.00(常用的货币格式)
 num.ToString("D5")  //00025(十进制数)
 num.ToString("F2")  //25.00(固定点)
 
@@ -18,8 +19,14 @@ num.ToString("N1")  //2,500,000.0
 
 num = 255
 num.ToString("X")  //FF(十六进制)
-num = 12345
-num.ToString("p"); //1,234,500.00%
+num = 0.4
+num.ToString("p"); //40%
+
+num = 1234
+num.ToString("000000")//001234(占位符,填充位)
+num.ToString("000.000")//1234.000(小数点)
+num = 12345678;
+num.ToString("0,00")//12,345,678(数字分组,也用于增倍器)
 
 (num /100.0).ToString("#.##")  //123.45
 (num / 100).ToString("#.##")   //123
@@ -28,11 +35,15 @@ num.ToString("p"); //1,234,500.00%
 ### 2. Date 日期的格式化
 
 ```csharp
-DateTime dt = new DateTime(2003,5,25);
+DateTime dt = new DateTime(2006,11,25);
 dt.ToString("yyyy年MM月dd日")  //2003年05月25日
-dt.ToString("yyyy/MM/dd HH:mm:ss")  //2003/05/25 时:分:秒
-dt.ToString("d")  //ShortDatePattern
-dt.ToString("D")  //LongDatePattern
+dt.ToString("yyyy/MM/dd HH:mm:ss")  //2003/05/25 10:30:00
+dt.ToString("D")  //2006年11月25日
+dt.ToString("d")  //2006-11-25
+dt.ToString("F")  //2006年11月25日 10:30:00
+dt.ToString("f")  //2006年11月25日 10:30
+dt.ToString("s")  //2006-11-26 10:30:00
+dt.ToString("T")  //10:30:00
 ```
 
 以下只能单独使用，表示特定的格式：
@@ -94,11 +105,21 @@ dt.ToString("D")  //LongDatePattern
 ###  3. String.Format中使用格式化
 
 ```csharp
+//int,double数值
 int num = 56789
 string.Format("{0:N1}",num)  //56,789.0
 string.Format("{0:N2}",num)  //56,789.00
 string.Format("{0:N3}",num)  //56,789.000
 string.Format("{0:F1}",num)  //56789.0
 string.Format("{0:F2}",num)  //56789.00
+
+//Date日期
+DateTime dt = new DateTime(2006,11,25);
+string.Format("{0:D}",dt)  //2006年11月25日
+string.Format("{0:d}",dt)  //2006-11-25
+string.Format("{0:F}",dt)  //2006年11月25日 10:30:00
+string.Format("{0:f}",dt)  //2006年11月25日 10:30
+string.Format("{0:s}",dt)  //2006-11-26 10:30:00
+string.Format("{0:T}",dt)  //10:30:00
 ```
 
