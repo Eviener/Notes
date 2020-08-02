@@ -20,3 +20,17 @@ str.substr(-2,2)  //y.
 str.substr(22)    //apples are juicy.
 ```
 
+## 2、字符串转数字
+
+```typescript
+let num = Number('123') // 123
+let num = Number('abc') // NaN
+
+//+号操作符
+let num = +'123' // 123
+let num = +'abc' // NaN
+
+//判断字符串能否转换为数组
+isNaN(num)
+```
+
