@@ -50,16 +50,16 @@
   * [第二节](asp.net/chapter2/section2.md)
   * [.NET Core 常见问题](asp.net/chapter2/section100.md)
 
-## 数据库
+## 数据库 <a id="database"></a>
 
-* [一、SQL](shu-ju-ku/chapter1/README.md)
-  * [SQL 查询](shu-ju-ku/chapter1/seciont1.md)
-  * [SQL 基础语法](shu-ju-ku/chapter1/seciont2.md)
-  * [SQL 高级语法](shu-ju-ku/chapter1/section3.md)
-  * [SQL 常见查询问题](shu-ju-ku/chapter1/section4.md)
-* [二、SQLite](shu-ju-ku/chapter2/README.md)
-  * [第一节](shu-ju-ku/chapter2/seciont1.md)
-  * [第二节](shu-ju-ku/chapter2/seciont2.md)
+* [一、SQL](database/chapter1/README.md)
+  * [SQL 查询](database/chapter1/seciont1.md)
+  * [SQL 基础语法](database/chapter1/seciont2.md)
+  * [SQL 高级语法](database/chapter1/section3.md)
+  * [SQL 常见查询问题](database/chapter1/section4.md)
+* [二、SQLite](database/chapter2/README.md)
+  * [第一节](database/chapter2/seciont1.md)
+  * [第二节](database/chapter2/seciont2.md)
 
 ## XML
 
