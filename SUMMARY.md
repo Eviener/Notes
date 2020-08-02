@@ -38,6 +38,7 @@
 * [六、TypeScript](javascript/chapter6/README.md)
   * [TypeScript 基础语法](javascript/chapter6/seciont1.md)
   * [TypeScript 基本类型](javascript/chapter6/seciont2.md)
+  * [TypeScript 常见问题](javascript/chapter6/section100.md)
 
 ## ASP.NET
 
