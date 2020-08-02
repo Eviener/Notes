@@ -117,9 +117,9 @@ string.Format("{0:F2}",num)  //56789.00
 DateTime dt = DateTime.Now;
 string.Format("{0:D}",dt)  //2006年11月25日
 string.Format("{0:d}",dt)  //2006-11-25
-string.Format("{0:F}",dt)  //2006年11月25日 10:30:00
+string.Format("{0:F}",dt)  //2006年11月25日 10:30:25
 string.Format("{0:f}",dt)  //2006年11月25日 10:30
-string.Format("{0:s}",dt)  //2006-11-26 10:30:00
-string.Format("{0:T}",dt)  //10:30:00
+string.Format("{0:s}",dt)  //2006-11-26 10:30:25
+string.Format("{0:T}",dt)  //10:30:25
 ```
 
