@@ -78,16 +78,16 @@
   * [XML DOM 常用方法归纳](xml/chapter2/seciont99.md)
   * [XML DOM 常见问题](xml/chapter2/section100.md)
 
-## 其他
+## 其他 <a id="other"></a>
 
-* [一、CLI命令行](qi-ta/chapter1/README.md)
-  * [npm 命令行](qi-ta/chapter1/seciont1.md)
-  * [angular 命令行](qi-ta/chapter1/section2.md)
-  * [git 命令行](qi-ta/chapter1/section3.md)
-* [二、PowerShell](qi-ta/chapter2/README.md)
-  * [PowerShell 常用命令](qi-ta/chapter2/seciont1.md)
-* [三、Git](qi-ta/chapter3.md)
-* [六、GitBook](qi-ta/chapter6/README.md)
-  * [gitbook 安装使用](qi-ta/chapter6/seciont1.md)
-  * [gitbook 命令行](qi-ta/chapter6/seciont2.md)
+* [一、CLI命令行](other/chapter1/README.md)
+  * [npm 命令行](other/chapter1/seciont1.md)
+  * [angular 命令行](other/chapter1/section2.md)
+  * [git 命令行](other/chapter1/section3.md)
+* [二、PowerShell](other/chapter2/README.md)
+  * [PowerShell 常用命令](other/chapter2/seciont1.md)
+* [三、Git](other/chapter3.md)
+* [六、GitBook](other/chapter6/README.md)
+  * [gitbook 安装使用](other/chapter6/seciont1.md)
+  * [gitbook 命令行](other/chapter6/seciont2.md)
 
