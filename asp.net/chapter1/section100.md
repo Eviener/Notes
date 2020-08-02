@@ -16,6 +16,8 @@ num.ToString("N1")  //2,500,000.0
 
 num = 255
 num.ToString("X")  //FF(十六进制)
+num = 12345
+num.ToString("p"); //1,234,500.00%
 
 num = 56789
 string.Format("{0:N1}",num)  //56,789.0
