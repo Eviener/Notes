@@ -44,6 +44,7 @@
 * [一、C\#](asp.net/chapter1/README.md)
   * [第一节](asp.net/chapter1/seciont1.md)
   * [第二节](asp.net/chapter1/section2.md)
+  * [C\# 常见问题](asp.net/chapter1/section100.md)
 * [二、.NET Core](asp.net/chapter2/README.md)
   * [第一节](asp.net/chapter2/seciont1.md)
   * [第二节](asp.net/chapter2/section2.md)
