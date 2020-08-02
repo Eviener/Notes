@@ -34,3 +34,33 @@ let num = +'abc' // NaN
 isNaN(num)
 ```
 
+## 3、去除字符串中的空格
+
+```typescript
+// js实现去除空格
+
+//去除左侧空格
+function ltrim(str:string){
+    const reg = /^\s+/g;
+    return str.replace(reg,'');
+}
+
+//去除右侧空格
+function rtrim(str:string){
+    const reg = /\s+$/g;
+    return str.replace(reg,'');
+}
+
+//去除两侧的空格
+function trim(str:string){
+    const reg = /^\s+|\s+$/g;
+    return str.replace(reg,'');
+}
+
+//去除字符串中的所有空格
+function trim2(str:string){
+    const reg = /\s+/g;
+    return str.replace(reg,'');
+}
+```
+
