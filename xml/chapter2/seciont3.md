@@ -55,5 +55,53 @@ xhttp.send();
 xmlDoc = xhttp.responseXML;
 ```
 
-## 
+## 2、XML Dom 转Json
+
+### 1.TypeScript\(angular\)
+
+help.ts文件
+
+```typescript
+export function xmlToJson(xmlDoc) {
+  let obj = {};
+  
+  if (xmlDoc.nodeType === 1) { //xml element
+    if (xmlDoc.attributes.length > 0) {
+      obj["@attributes"] = {};
+      for (let j = 0; j < xmlDoc.attributes.length; j++) {
+        let attribute = xmlDoc.attributes.item(j);
+        obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
+      }
+    }
+  } else if (xmlDoc.nodeType === 3) { //xml text
+    obj = xmlDoc.nodeValue;
+  }
+  
+  if (xmlDoc.hasChildNodes()) {
+    for (let i = 0; i < xmlDoc.childNodes.length; i++) {
+      let item = xmlDoc.childNodes.item(i);
+      let nodeName = item.nodeName;
+      if (typeof (obj[nodeName]) === 'undefined') {
+        obj[nodeName] = xmlToJson(item);
+      } else {
+        if (typeof (obj[nodeName].push) === 'undefined') {
+          let old = obj[nodeName];
+          obj[nodeName] = [];
+          obj[nodeName].push(old);
+        }
+        obj[nodeName].push(xmlToJson(item));
+      }
+    }
+  }
+  return obj;
+}
+```
+
+调用
+
+```javascript
+import { xmlToJson } from '../helpers/global-helper'
+//在方法里使用
+let obj = xmlToJson(xmlDoc);
+```
 
