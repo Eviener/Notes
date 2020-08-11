@@ -46,32 +46,30 @@ string.slice(beginIndex, endIndex);
 ### 1. new Date\(\)
 
 ```typescript
-const nowDate: Date = new Date();
-new Date(nowDate.getFullYear(),0,1); //今年1月1日
-new Date(nowDate.getFullYear(),11,31); //今年12月31日
+const nowDate: Date = new Date(); //当前时间
+new Date(nowDate.getFullYear(), 0, 1); //今年1月1日
+new Date(nowDate.getFullYear(), 11, 31); //今年12月31日
+new Date(nowDate.getFullYear(), 0, 1, 23, 59, 57); //今年1月1日 23:59:57
+
+new Date("Jan 1,2020"); //2020年1月1日
+new Date("Jan 1,2020 23:59:57"); //2020年1月1日 23:59:57
+new Date("1999-01-01"); //1999年1月1日 08:00:00(不规范的用法，不推荐)
 ```
 
-1. new Date\("month dd,yyyy hh:mm:ss"\)
-2. new Date\("month dd,yyyy"\)
-3.  new Date\(yyyy,MM,dd,hh,mm,ss\);
-4. new Date\(yyyy,MM,dd\)
-5. new Date\(ms\)
+1. `new Date("month dd,yyyy hh:mm:ss")`
+2. `new Date("month dd,yyyy")`
+3.  `new Date(yyyy,MM,dd,hh,mm,ss)`
+4. `new Date(yyyy,MM,dd)`
+5. `new Date(ms)`
 
-month:用英文 表示月份名称，从January到December ,缩写也行（Jan....Dec）;
-
-MM:用整数表示月份，**从0（１月）到１１（１２月）**
-
-dd:表示一个 月中的第几天，从1到31
-
-yyyy:四位数表示的年份
-
-hh:小时数，从0（午夜）到23（晚11点）
-
-mm: 分钟数，从0到59的整数
-
-ss:秒数，从0到59的整数
-
-ms:毫秒数，为大于等于0的整数
+`month`:用英文 表示月份名称，从January到December ,缩写也行（Jan....Dec）;  
+`MM`:用整数表示月份，**从0（１月）到１１（１２月）**  
+`dd`:表示一个 月中的第几天，从1到31  
+`yyyy`:四位数表示的年份  
+`hh`:小时数，从0（午夜）到23（晚11点）  
+`mm`: 分钟数，从0到59的整数  
+`ss`:秒数，从0到59的整数  
+`ms`:毫秒数，为大于等于0的整数
 
 ```javascript
 var nowDate = new Date(); //当前时间
