@@ -68,7 +68,7 @@ function trim2(str:string){
 
 ```typescript
 function currencyConvertToNumber(currency: string): number {
-  currency = currency.replace(/\$|¥|,/g, '');
+  currency = currency.replace(/\$|¥|,/g, ''); //用'|'符号分隔，如果是特殊符号，需要加上符号'\'标识
   let num = isNaN(Number(currency)) ? 0 : Number(currency);
   return num;
 }
