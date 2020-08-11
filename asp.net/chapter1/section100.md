@@ -8,7 +8,7 @@
 //int,double
 int num = 25;
 
-num.ToString("C")   //￥25.00(常用的货币格式)
+num.ToString("C")   //$25.00(USA)/￥25.00(China)/£25.00(UK)(专用场合的货币格式)
 num.ToString("c2")  //$25.00(常用的货币格式)
 num.ToString("D5")  //00025(十进制数)
 num.ToString("F2")  //25.00(固定点)

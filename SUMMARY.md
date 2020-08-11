@@ -14,6 +14,7 @@
 * [三、CSS](html-css/chapter3/README.md)
   * [第一节](html-css/chapter3/seciont1.md)
   * [CSS 属性](html-css/chapter3/section2.md)
+  * [Flexbox 弹性布局](html-css/chapter3/section3.md)
   * [CSS 常见问题](html-css/chapter3/section100.md)
 
 ## JavaScript
