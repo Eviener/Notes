@@ -64,5 +64,13 @@ function trim2(str:string){
 }
 ```
 
+## 4、货币格式转金额
 
+```typescript
+function currencyConvertToNumber(currency: string): number {
+  currency = currency.replace(/\$|¥|,/g, '');
+  let num = isNaN(Number(currency)) ? 0 : Number(currency);
+  return num;
+}
+```
 
