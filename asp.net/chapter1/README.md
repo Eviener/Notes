@@ -1,4 +1,4 @@
 # 一、C\#
 
-参考官方文档：[https://docs.microsoft.com/zh-cn/dotnet/csharp/](https://docs.microsoft.com/zh-cn/dotnet/csharp/)
+更多相关知识可查看[官方文档](https://docs.microsoft.com/zh-cn/dotnet/csharp/)。
 
