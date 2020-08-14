@@ -45,8 +45,9 @@
 ## ASP.NET
 
 * [一、C\#](asp.net/chapter1/README.md)
-  * [第一节](asp.net/chapter1/seciont1.md)
-  * [第二节](asp.net/chapter1/section2.md)
+  * [C\# 简介](asp.net/chapter1/section1/README.md)
+    * [C\# 简史](asp.net/chapter1/section1/unit1.md)
+  * [C\# 语言基础](asp.net/chapter1/section2.md)
   * [C\# 常见问题](asp.net/chapter1/section100.md)
 * [二、.NET Core](asp.net/chapter2/README.md)
   * [第一节](asp.net/chapter2/seciont1.md)
