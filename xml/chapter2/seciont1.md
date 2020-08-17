@@ -33,7 +33,25 @@ DOM 是**W3C 文档对象模型**（全称 Document Object Model）。是一个�
 
  HTML DOM 定义了所有 HTML 元素的**对象和属性**，以及访问它们的**方法**（接口）。
 
-## 二、节点
+## 二、什么是 DOM
+
+xml文件：
+
+```markup
+<?xml version="1.0" encoding="utf-8"?>
+<customer id="12" status="archived">
+	<firstname>Joe</firstname>
+	<lastname>Bloggs</lastname>
+</customer>
+```
+
+起始部分是声明，紧接着是根元素`customer`。  
+`customer`元素有两个属性\(`id`和`status`\)，每个属性都有其对应值\(`"12"`和`"archived"`\)。  
+`customer`节点下有两个子元素`firstname`和`lastname`，每个子元素都含有简单的文本内容（`"Joe"`和`"Bloggs"`）。
+
+XML文档的每个部分（**声明、元素、属性、值和文本内容**）都可以用类表示。如果使用集合属性来存储子内容，我们就可以用一棵对象树来完整的表示整个文档。这称为文档对象模型\(Document Object Model\)，或DOM。
+
+## 三、节点
 
 XML 文档中的每个成分都是一个**节点**。
 
@@ -49,7 +67,7 @@ XML DOM 节点的规定：
 
 例：**`<year>2005</year>`**，元素节点 `<year>`，拥有一个值为 `2005` 的文本节点。
 
-## 三、节点树
+## 四、节点树
 
  XML DOM 把 XML 文档视为一种树结构。这种树结构被称为**节点树**。
 
