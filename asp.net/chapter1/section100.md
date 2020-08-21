@@ -124,3 +124,9 @@ string.Format("{0:s}",dt)  //2006-11-26 10:30:25
 string.Format("{0:T}",dt)  //10:30:25
 ```
 
+## 2.等待（延迟执行）
+
+```csharp
+System.Threading.Thread.Sleep(50000);
+```
+
