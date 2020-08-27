@@ -116,3 +116,34 @@ focusNextInput(len: number, beforeControl?: HTMLInputElement, curControl?: HTMLI
 
 keydown和keypress略有不同，目前的测试是ngKeypress针对系统按键是无效的，而keydown和keyup可以。
 
+## 7、路由
+
+### 7.1 路由跳转
+
+```typescript
+this.router.navigate(['dashboard']);
+```
+
+### 7.2 刷新当前页面
+
+```typescript
+location.reload();
+```
+
+### 7.3 返回上一级页面
+
+```typescript
+history.go(-1);
+history.go(1);  //返回下一个页面
+```
+
+### 7.4 获取当前路由
+
+```typescript
+this.router.url  // /dashboard
+//应用
+if(this.router.url.indexOf('/dashboard')>-1)
+{ 
+}
+```
+

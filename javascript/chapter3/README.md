@@ -1,2 +1,2 @@
-# 三、Angular2
+# 三、Angular
 
