@@ -147,3 +147,20 @@ if(this.router.url.indexOf('/dashboard')>-1)
 }
 ```
 
+## 8、页面打印
+
+```typescript
+import { Component, OnInit,ElementRef } from '@angular/core';
+
+constructor(
+    private el: ElementRef
+  ) {}
+
+//print
+  Printcontent() : void{
+    let newwin = window.open("about:blank");
+    newwin.document.body.innerHTML=this.el.nativeElement.querySelector('#hoa-id-card-print').innerHTML;
+    newwin.print();
+  }
+```
+
