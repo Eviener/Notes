@@ -9,6 +9,8 @@
 
 ## 2、router-outlet
 
+参考链接：[详细介绍](https://www.cnblogs.com/sghy/p/6951083.html)、[详细介绍](https://www.jianshu.com/p/d2e0223a337d)。
+
 ## 3、重新渲染组件
 
 参考链接：[详细介绍](https://stackoverflow.com/questions/35105374/how-to-force-a-components-re-rendering-in-angular-2)。
