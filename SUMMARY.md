@@ -32,7 +32,7 @@
   * [Angular 路由策略](javascript/chapter3/section2.md)
   * [Angular 常见问题](javascript/chapter3/section100.md)
 * [四、React](javascript/chapter4/README.md)
-  * [第一节](javascript/chapter4/seciont1.md)
+  * [React 入门](javascript/chapter4/seciont1.md)
   * [第二节](javascript/chapter4/section2.md)
 * [五、Vue](javascript/chapter5/README.md)
   * [第一节](javascript/chapter5/seciont1.md)
