@@ -4,7 +4,7 @@
 
 ### 1. 安装Node.js 
 
-1.1 安装 Node.js （安装Node时，npm也自动安装好了） 
+1.1 安装 [Node.js](https://nodejs.org/en/) （安装Node时，npm也自动安装好了） 
 
 1.2 测试是否安装成功
 
