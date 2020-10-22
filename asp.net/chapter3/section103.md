@@ -96,14 +96,65 @@ namespace MemberPortal.Views.Components
 `HeaderBar.xaml`模板页面代码：
 
 ```markup
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MemberPortal.Extensions"
+             x:Class="MemberPortal.Views.Components.HeaderBar"
+             x:Name="this">
 
+    <StackLayout Orientation="Vertical" BindingContext="{x:Reference this}">
+        <!--logo区域-->
+        <StackLayout Orientation="Horizontal" Padding="32,15" >
+            <Image Source="{local:ImageResource Source=MemberPortal.Resources.Images.logo.png}" Scale="3" HeightRequest="50" Margin="0,0,70,0"   />
+            <StackLayout Orientation="Vertical">
+                <Label Text="Welcome" TextColor="#919191" FontSize="16" FontAttributes="Bold" />
+                <Label Text="{Binding UserName}" FontSize="17" FontAttributes="Bold" TextColor="Black" />
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentView>
 ```
 
 `HeaderBar.xaml.cs`代码：
 
-```markup
+```csharp
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
+namespace MemberPortal.Views.Components
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class HeaderBar : ContentView
+    {
+        public static readonly BindableProperty UserNameProperty = BindableProperty.Create(nameof(UserName), typeof(string), typeof(HeaderBar), string.Empty);
+
+        public string UserName
+        {
+            get => (string)GetValue(UserNameProperty);
+            set => SetValue(UserNameProperty, value);
+        }
+
+        public HeaderBar()
+        {
+            InitializeComponent();
+        }
+    }
+}
 ```
 
 应用模板：
+
+```csharp
+<controls:HeaderBar x:Name="HeaderTitle" />
+```
+
+```csharp
+protected override void OnAppearing()
+{
+    HeaderTitle.UserName = "Test";
+}
+```
+
+
 
