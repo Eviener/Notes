@@ -93,3 +93,17 @@ namespace MemberPortal.Views.Components
 
 ### 2.数据传递
 
+`HeaderBar.xaml`模板页面代码：
+
+```markup
+
+```
+
+`HeaderBar.xaml.cs`代码：
+
+```markup
+
+```
+
+应用模板：
+
