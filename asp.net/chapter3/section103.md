@@ -207,7 +207,7 @@ namespace MemberPortal.Views.Components
 应用模板：
 
 ```csharp
-<controls:HeaderBar x:Name="HeaderTitle" />
+<controls:HeaderBar />
 ```
 
 ```csharp
