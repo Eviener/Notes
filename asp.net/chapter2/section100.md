@@ -15,6 +15,9 @@ public FileStreamResult CreateTempIDCardPdfPreview([Required] int coverageId)
 {
     return null;
 }
+
+//访问api
+>>http://localhost:57310/api/IDCard/CreateTempIDCardPdfPreview/757183/TempIDCard.pdf
 ```
 
 
