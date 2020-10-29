@@ -58,6 +58,7 @@
   * [Xamarin URL Scheme](asp.net/chapter3/section101.md)
   * [Xamarin refit API](asp.net/chapter3/section102.md)
   * [Xamarin 控件模板](asp.net/chapter3/section103.md)
+  * [Xamarin 图片](asp.net/chapter3/section104.md)
 
 ## 数据库 <a id="database"></a>
 
