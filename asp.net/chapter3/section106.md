@@ -1,6 +1,6 @@
 # Xamarin 身份验证
 
-1、IOS 检查TouchId、FaceId
+## 1、IOS 检查TouchId、FaceId
 
 ```csharp
 public static string CheckBiometryType()
